@@ -6,7 +6,7 @@ import Main from "./Rightside/Main";
 export default function Student() {
   return (
     <Box>
-      <Box display="flex">
+      <Box display="flex" h="1000px">
         <Box w={["40%", "30%", "20%"]} bg="#00A54F">
           <LeftMain />
         </Box>
